@@ -1,0 +1,34 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore local reports
+reports/
+*.xml
+*.html
+
+# Virtual environments
+.env/
+.venv/
+env/
+myenv/
+
+# Ignore IDE/editor files
+.vscode/
+.idea/
+*.swp
+
+# Ignore git metadata
+.git
+.gitignore
+
+# Ignore Docker ignore itself
+.dockerignore
+
+# Ignore OS junk files
+.DS_Store
+Thumbs.db
+
+# Shell scripts
+*.sh
