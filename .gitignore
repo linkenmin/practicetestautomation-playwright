@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches and reports
+reports/
+*.xml
+*.html
+
+# Pytest cache
+.pytest_cache/
+
+# Playwright stuff
+playwright-report/
+
+# Virtual environments
+.env/
+.venv/
+env/
+myenv/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Docker artifacts
+docker-compose.override.yml
+
+# Shell scripts
+*.sh
